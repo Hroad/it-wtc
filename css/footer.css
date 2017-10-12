@@ -1,0 +1,116 @@
+#footer:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#footer {
+  margin-top: 3rem;
+  background: #333;
+}
+#footer .code img {
+  margin-left: 2rem;
+  width: 50%;
+  height: 50%;
+  background: rgba(51, 51, 51, 0.5);
+}
+#footer .code ul {
+  margin-top: 5rem;
+  color: #fff;
+  font-size: 1.2rem;
+}
+#footer .code ul li {
+  text-align: center;
+}
+#footer p {
+  color: #FFF;
+  font-size: 1.4rem;
+  margin-top: 5rem;
+}
+#footer ul {
+  list-style-type: none;
+}
+#footer ul li {
+  margin-top: 0.5rem;
+  color: #fff;
+  font-size: 1.1rem;
+}
+@media only screen and (max-width:768px ) {
+	.often ul li,.students ul li,.map ul li,.link ul li{
+		float: left;
+		width: 33%;
+		text-align: center;
+		font-size: 1.3rem !important;
+	}
+	.contact,.often,.students,.map,.link{
+			padding-top: 15px;
+	}
+	#footer p{
+		text-align: center;
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
+	.contact{
+		text-align: center;
+	}
+	#footer .code ul{
+		padding-top: 20px;
+	}
+	#footer .code ul li {
+		width: 50%;
+	  float: left;
+	  text-align: center;
+	}
+	#footer .code ul li img{
+		max-width: 60%;
+		width: 100%;
+	}
+	#footer .code ul .text{
+		display: none;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.often ul li,.students ul li,.map ul li,.link ul li{
+		float: left;
+		width: 50%;
+		text-align: center;
+		font-size: 1.3rem !important;
+	}
+	#footer p{
+		text-align: center;
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
+	.contact{
+		text-align: center;
+	}
+	#footer .code ul {
+  margin-top: -80%;
+	}
+	#footer .code ul li {
+		width: 50%;
+	  float: left;
+	}
+	#footer .code ul li img{
+		max-width: 60%;
+		width: 100%;
+	}
+	#footer .code ul .text{
+		display: none;
+	}
+}
+#footer ul li a {
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+#footer ul li a:hover {
+  color: #5980A9;
+}
+#footer h5 {
+  color: #fff;
+  text-align: center;
+  margin-top: 3rem;
+  background: #000;
+  padding: 1rem;
+  margin-bottom: 0;
+}

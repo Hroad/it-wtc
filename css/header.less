@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #f9f9f9;
+}
+.container{
+    max-width: 110rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.logo{
+    @mt:1.5rem;
+    margin-top: @mt;
+}
+.search{
+    @mt:4rem;
+    margin-top: @mt;
+}
+.search input{
+    width: 70%;
+    height: 5.4rem;
+    line-height: 5.4rem;
+    border: none;
+    outline: none;
+    padding-left: 1.5rem;
+    background: url(../img/search-box.png) no-repeat left top;
+    background-size:100% 100%;    
+}
+//    logo加搜索框      END
+
+
+/*********************************/
+a{color: #5b78a0;}
+ul{margin: 0;padding: 0;}
+li{margin: 0;padding: 0;}
+#nav ul {
+    margin-top: 2.5rem;
+    overflow: hidden;
+    width: 100%;
+}
+#nav ul li a{
+    font-size: 1.6rem;
+    display: block;
+    height: 4rem !important;
+    transition: all linear .3s;
+}
+@media screen and (min-width: 768px){
+    #nav ul li a:hover{
+        background: #f9f9f9;
+    }
+}
+#nav ul li a:hover{
+    color: #5b78a0;
+    border-bottom: 0.7rem solid #579b6c;
+    border-radius: 0.35rem;
+}
+#nav .navbar-toggle {
+    background-color: #5b78a0;
+}
+#nav .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+//    NAV     END
+
+
